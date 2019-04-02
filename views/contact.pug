@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    h1 Контакты
+
+    form(method="post")
+        label(for "name") Name:
+        input(type="text", name="name", placeholder="Введите Ваше имя")
+        label(for "phone") Phone:
+        input(type="phone", name="phone", placeholder="Введите Ваш телефон")
+        label(for "email") Email:
+        input(type="email", name="email", placeholder="Введите Ваш email")
+        button(type='submit') Submit
+    //-     fieldset.form-group
+    //-         label(for="name") Name:
+    //-         input.form-control(id="name", name="name", type="text", placeholder="Введите имя курса", value=course.name)
+    //-         small.text-muted Добавьте свой новый курс
+    //-     button.btn.btn-primary(type="submit") Сохранить курс
+    //-     a.btn.btn-default(href="/courses") Отмена

@@ -1,0 +1,17 @@
+body {
+    padding-top: 50px;
+}
+
+.main-content {
+    padding: 40px 15px;
+}
+h1 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%; 
+}
