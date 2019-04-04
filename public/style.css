@@ -1,16 +1,32 @@
 body {
     padding-top: 50px;
+    background: url(../img/fon.jpg);
 }
-
+ul#menu {
+    margin-left: 35%;
+    }
+form#form {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.form-group {
+    font-size: 150%;
+    text-align: left;
+}  
+.form-group#btn {
+    color: black;
+}  
 .main-content {
     padding: 40px 15px;
 }
 h1 {
     text-align: center;
-    color: red;
     font-weight: bold;
 }
 p {
+    font-size: 130%;
+    font-weight: 700;
+    line-height: 2;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%; 
